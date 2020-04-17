@@ -1,0 +1,75 @@
+html,
+body {
+  font-family: "Source Sans Pro";
+}
+/*W3 schools reference for transitions*/
+.nav-link {
+  color: rgb(230, 230, 230) !important;
+  transition: all ease-in-out 0.9s;
+}
+
+.nav-link:hover {
+  color: rgb(250, 180, 89) !important;
+  transition: all ease-in-out 0.9s;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: rgb(250, 180, 89) !important;
+}
+
+.card-body {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(247, 153, 66);
+}
+/* W3 Schools Reference for shadows*/
+.jumbotron {
+  box-shadow: 20px 20px 12px 0 rgba(0, 0, 0, 0), 0 8px 22px 0 rgb(252, 160, 55);
+  background-color: black;
+  color: white;
+}
+
+.container {
+  color: white(255, 255, 255);
+}
+
+.active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav {
+  background-color: black;
+}
+
+.main {
+  color: rgb(255, 192, 97);
+}
+
+/*Reference to W3 Schools for button*/
+.button {
+  background-color: rgb(252, 160, 55);
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  animation: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+/* Used W3 schools for reference*/
+.column {
+  float: left;
+  width: 50%;
+  padding:5px;
+}
+/*W3 Schools*/
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.tokyo {
+  height: 100%;
+}
